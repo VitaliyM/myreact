@@ -3,11 +3,14 @@
     width: 100%;
 }
 
-.mainBlockSection1{
+.home-block__section1{
+    height: 330px;
     margin-top: 15vh;
+    display: flex;
+    justify-content: center;
 }
 
-.mainBlockText{
+.home-block__text{
     height: 200px;
     position: relative;
     display: flex;
@@ -18,7 +21,7 @@
     color: #ffffff;
 }
 
-.downloadCv{
+.home-block__download-cv{
     background: #8601ff;
     height: 40px;
     width: 120px;
@@ -31,13 +34,13 @@
     transition: background 0.3s linear;
 }
 
-.rectangles{
+.rectangles-block{
     position: absolute;
     top: -37px;
     left: -15px;
 }
 
-.rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8{
+.rectangles-block__rec{
     position: absolute;
     border: 1px solid #ffffff79;
     width: 300px;
@@ -73,35 +76,32 @@
     100% {transform: rotateZ(-75deg) scale(0.43);}
 }
 
-.rect1{
+.rectangles-block__rect1{
     animation: rot1 1.3s ease-in-out;
     transform: rotateZ(-15deg);
 }
 
-.rect2{
+.rectangles-block__rect2{
     animation: rot2 1.3s ease-in-out;
     transform: rotateZ(-30deg) scale(0.8);
 }
 
-.rect3
-{
+.rectangles-block__rect3{
     animation: rot3 1.3s ease-in-out;
     transform: rotateZ(-45deg) scale(0.65);
 }
 
-.rect4
-{
+.rectangles-block__rect4{
     animation: rot4 1.3s ease-in-out;
     transform: rotateZ(-60deg) scale(0.53);
 }
 
-.rect5
-{
+.rectangles-block__rect5{
     animation: rot5 1.3s ease-in-out;
     transform: rotateZ(-75deg) scale(0.43);
 }
 
-.mainBlockSection2
+.home-block__section2
 {
     background: #9f9d9d;
     outline: 1px solid;
@@ -114,16 +114,16 @@
     color: #000000;
 }
 
-.mainBlockSection2--switch-theme{
+.home-block__section2--switch-theme{
     background: #00000021;
 }
 
-.skillsHeader{
+.home-block__skills-header{
     font-size: 25px;
     font-weight: bold;
 }
 
-.skillsText{
+.home-block__skills-text{
     width: 260px;
     margin-top: 15px;
     text-align: center;
