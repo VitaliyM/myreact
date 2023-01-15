@@ -1,0 +1,131 @@
+.home-block{
+    background: #000000;
+    width: 100%;
+}
+
+.mainBlockSection1{
+    margin-top: 15vh;
+}
+
+.mainBlockText{
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.downloadCv{
+    background: #8601ff;
+    height: 40px;
+    width: 120px;
+    margin-top: 40px;
+    z-index: 1;
+}
+.themeMain{
+    background: #ffffff;
+    color: #000000;
+    transition: background 0.3s linear;
+}
+
+.rectangles{
+    position: absolute;
+    top: -37px;
+    left: -15px;
+}
+
+.rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8{
+    position: absolute;
+    border: 1px solid #ffffff79;
+    width: 300px;
+    height: 300px;
+}
+
+.themeRec{
+    border: 1px solid #00000079;
+}
+
+@keyframes rot1 {
+    0%,30% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(-15deg);}
+}
+
+@keyframes rot2 {
+    0%,30% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(-30deg) scale(0.8);}
+}
+
+@keyframes rot3 {
+    0%,30% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(-45deg) scale(0.65);}
+}
+
+@keyframes rot4 {
+    0%,30% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(-60deg) scale(0.53);}
+}
+
+@keyframes rot5 {
+    0%,30% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(-75deg) scale(0.43);}
+}
+
+.rect1{
+    animation: rot1 1.3s ease-in-out;
+    transform: rotateZ(-15deg);
+}
+
+.rect2{
+    animation: rot2 1.3s ease-in-out;
+    transform: rotateZ(-30deg) scale(0.8);
+}
+
+.rect3
+{
+    animation: rot3 1.3s ease-in-out;
+    transform: rotateZ(-45deg) scale(0.65);
+}
+
+.rect4
+{
+    animation: rot4 1.3s ease-in-out;
+    transform: rotateZ(-60deg) scale(0.53);
+}
+
+.rect5
+{
+    animation: rot5 1.3s ease-in-out;
+    transform: rotateZ(-75deg) scale(0.43);
+}
+
+.mainBlockSection2
+{
+    background: #9f9d9d;
+    outline: 1px solid;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.mainBlockSection2--switch-theme{
+    background: #00000021;
+}
+
+.skillsHeader{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skillsText{
+    width: 260px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}

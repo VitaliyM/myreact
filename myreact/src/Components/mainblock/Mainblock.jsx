@@ -9,11 +9,12 @@ function Mainblock() {
   return (
     <main className='main-block'>
 
-      
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contacts' element={<Contacts />} />
+      </Routes>
 
-        <Home />
-        <Projects />
-        <Contacts />
     </main>
   )
 }
