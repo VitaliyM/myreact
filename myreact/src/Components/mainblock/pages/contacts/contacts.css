@@ -1,0 +1,54 @@
+.contacts-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-block__header{
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.contacts-block__location{
+    margin-top: 60px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.location__header{
+    font-size: 25px;
+}
+
+.location__text{
+    font-size: 20px;
+}
+
+.contacts-block__messager{
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.messager__header{
+    font-size: 25px;
+}
+
+.messager__text{
+    font-size: 20px;
+}
+
+.contacts-block__email{
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.email__header{
+    font-size: 25px;
+}
+
+.email__text{
+    font-size: 20px;
+}
