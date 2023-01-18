@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
       
         <Navbar />
-        <Mainblock />        
+        <Mainblock projectsDataList={dataList.projects} />        
         <Footer footerDataList={dataList.footer} />
 
       </BrowserRouter>

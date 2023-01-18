@@ -1,0 +1,29 @@
+.projects-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-block__header{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #8601ff;
+}
+
+.projects-block__project{
+    width: 60%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project{
+    outline: 2px solid #8601ff;
+    margin-bottom: 30px;
+}
+
+.project__image{
+    width: 250px;
+}
