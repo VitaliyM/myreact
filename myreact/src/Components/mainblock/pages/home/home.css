@@ -1,5 +1,4 @@
 .home-block{
-    background: #000000;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -115,6 +114,7 @@
     justify-content: center;
     align-items: center;
     color: #000000;
+    font-family: sans-serif;
 }
 
 .home-block__section2--switch-theme{

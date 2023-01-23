@@ -8,7 +8,7 @@
     margin-top: 50px;
     font-family: sans-serif;
     font-size: 50px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .projects-block__project{
@@ -21,6 +21,7 @@
 
 .project{
     outline: 3px double #008eff;
+    border-radius: 5px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -29,7 +30,7 @@
 
 .project__image{
     border-bottom: 1px solid;
-    border-radius: 0 0 10px 10px;
+    border-radius: 5px 5px 10px 10px;
     height: 150px;
 }
 
@@ -37,4 +38,5 @@
     font-family: sans-serif;
     margin-left: 5px;
     font-size: 20px;
+    color: #ffffff;
 }

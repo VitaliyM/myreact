@@ -8,7 +8,7 @@
     margin-top: 50px;
     font-size: 50px;
     font-family: sans-serif;
-    color: #000000;
+    color: #ffffff;
 }
 
 .contacts-block__location{
@@ -20,6 +20,7 @@
 
 .location__header{
     font-size: 25px;
+    color: #ffffff;
 }
 
 .location__text{
@@ -35,6 +36,7 @@
 
 .messager__header{
     font-size: 25px;
+    color: #ffffff;
 }
 
 .messager__text{
@@ -50,6 +52,7 @@
 
 .email__header{
     font-size: 25px;
+    color: #ffffff;
 }
 
 .email__text{
