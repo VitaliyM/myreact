@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import BtnDarkMode from '../btnDarkMode/BtnDarkMode';
 import './navbar.css';
 
 
@@ -9,12 +10,13 @@ const setActive = ({ isActive }) =>(isActive ? "menu__menu-list_active" : "menu_
 function Navbar() {
   return (
     <header className='header-block'>
-        <div className='header-block__logo'>Portfolio</div>
+        <NavLink to='/' className='header-block__logo'>Portfolio</NavLink>
         <div className='header-block__menu'>
             <NavLink to='/' className={setActive} >Home</NavLink>
             <NavLink to='/projects' className={setActive} >Projects</NavLink>
             <NavLink to='/contacts' className={setActive} >Contacts</NavLink>
-            <div className='menu__menu-list'>White/Black</div>
+            {/* <div className='menu__menu-list'>White/Black</div> */}
+            <BtnDarkMode />
         </div>
     </header>
   )

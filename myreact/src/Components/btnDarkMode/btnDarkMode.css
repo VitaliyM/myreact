@@ -1,0 +1,9 @@
+.btn-mode{
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-mode:hover{
+    cursor: pointer;
+}
