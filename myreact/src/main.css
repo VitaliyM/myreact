@@ -7,3 +7,7 @@
 body{
     background: #000000;
 }
+
+.body--light-mode{
+    background: #ffffff;
+}

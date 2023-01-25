@@ -16,6 +16,10 @@
     font-size: 30px;
 }
 
+.header-block__logo--light-mode{
+    color: #000000;
+}
+
 .header-block__menu{
     display: flex;
 }
@@ -24,6 +28,10 @@
     margin-left: 20px;
     color: #ffffff;
     text-decoration: none;
+}
+
+.menu__menu-list--light-mode{
+    color: #000000;
 }
 
 .menu__menu-list:hover{
