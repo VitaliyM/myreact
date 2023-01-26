@@ -4,18 +4,31 @@ import './btnDarkMode.css';
 
 function BtnDarkMode() {
 
-  // Устанавливаем начальное состояние darkMode = 'light'
+  // Устанавливаем начальное состояние darkMode
   // Изменять значение darkMode можно через ф-цию setDarkMode
-  const [darkMode, setDarkMode] = useState(JSON.parse(localStorage.getItem('darkMode')) || 'dark');
+  const [darkMode, setDarkMode] = useState('light');
+
+ 
+  console.log("Dark Mode - " + darkMode);
+  console.log(`LocalStorage GET ${localStorage.getItem("darkMode", darkMode)}`);
+  // console.log("Before - " + JSON.parse(localStorage.getItem(darkMode)));
+  // console.log("After - " + localStorage.setItem('darkMode', JSON.stringify(darkMode)));
+
 
   // useEffect() запускает ф-цию при первичном рендиренге (запуске) страницы,
   // так же запускать ф-цию при изменении состояния
   // Второй аргумент массив: если пустой ф-ция сработает один раз,
   // можно передать состояние, ф-ция будет срабатывать при изменеии состояния
   useEffect(() => {
-    console.log(`Use effect ${darkMode}`)
+    // let getTheme = JSON.parse(localStorage.getItem(darkMode));
+    // console.log(`localStorage Before - ${getTheme}`);
     
-    localStorage.setItem('darkMode', JSON.stringify(darkMode));
+    // console.log(`Use state - ${darkMode}`);
+    
+    // localStorage.setItem('darkMode', JSON.stringify(darkMode));
+
+    // console.log(`localStorage After - ${getTheme}`);
+
     
     
     if (darkMode === 'dark') {
@@ -27,12 +40,14 @@ function BtnDarkMode() {
     }
     
   }, [darkMode]);
+
   
   const toggleDarkMode = () => {
-    setDarkMode((currentValue) => {
+    setDarkMode( (currentValue) => {
       return currentValue === 'dark' ? 'light' : 'dark';
     });
   };
+
 
   return (
     <div className='btn-mode' onClick={toggleDarkMode}>White/Black</div>
