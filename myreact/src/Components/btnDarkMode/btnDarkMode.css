@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+.btn-mode--light{
+    color: #000000;
+}
+
 .btn-mode:hover{
     cursor: pointer;
 }

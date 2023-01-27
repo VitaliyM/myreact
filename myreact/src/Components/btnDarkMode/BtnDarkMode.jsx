@@ -20,9 +20,11 @@ function BtnDarkMode() {
     localStorage.setItem('darkMode', darkMode);
 
     if (darkMode === 'light') {
+      document.querySelector('.btn-mode').classList.add('btn-mode--light');
       document.body.classList.add('body--light-mode');
       document.querySelector('.header-block__logo').classList.add('header-block__logo--light-mode');
     } else {
+      document.querySelector('.btn-mode').classList.remove('btn-mode--light');
       document.body.classList.remove('body--light-mode');
       document.querySelector('.header-block__logo').classList.remove('header-block__logo--light-mode');
     }
