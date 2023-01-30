@@ -6,11 +6,11 @@ import './navbar.css';
 
 const activeLogo = ({ isActive }) => isActive ? "header-block__logo" : "header-block__logo";
 
-const activeLink = ( {isActive} ) => isActive ? "menu__menu-list_active" : "menu__menu-list";
-
-// let getStorage = localStorage.getItem('darkMode');
-// let menuList = document.querySelectorAll('.menu__menu-list');
-
+function linkWithStorage() {
+  let getStorage = localStorage.getItem('darkMode');
+  return getStorage === 'light' ? "menu__menu-list menu__menu-list--light-mode" : "menu__menu-list";
+}
+const activeLink = ({isActive}) => isActive ? "menu__menu-list_active" : linkWithStorage();
 
 
 function Navbar() {
