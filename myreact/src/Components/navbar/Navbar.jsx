@@ -7,24 +7,11 @@ import './navbar.css';
 const activeLogo = ({ isActive }) => isActive ? "header-block__logo" : "header-block__logo";
 
 const activeLink = ( {isActive} ) => isActive ? "menu__menu-list_active" : "menu__menu-list";
-// let getStorage = localStorage.getItem('darkMode');
-// const activeLink = ({ isActive }) => {
-  
-//   console.log(`Active Link - ${getStorage}`);
-//   if (isActive && getStorage === "dark") {
-//     return (
-//       "menu__menu-list_active"
-//     )
-//   } else if(getStorage === "dark"){
-//     return ("menu__menu-list")
-//   } else if(isActive && getStorage === "light") {
-//     return (
-//       "menu__menu-list_active",
-//       "menu__menu-list--light-mode"
-//       )
-//   }
 
-// }
+// let getStorage = localStorage.getItem('darkMode');
+// let menuList = document.querySelectorAll('.menu__menu-list');
+
+
 
 function Navbar() {
   return (

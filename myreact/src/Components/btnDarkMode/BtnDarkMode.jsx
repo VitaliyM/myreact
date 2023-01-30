@@ -9,14 +9,15 @@ function BtnDarkMode() {
   
   const [darkMode, setDarkMode] = useState(localStorage.getItem('darkMode') || 'dark');
   
-  console.log("darkMode - " + darkMode);
+  console.log("darkMode = " + darkMode);
 
+  
   // useEffect() запускает ф-цию при первичном рендиренге (запуске) страницы,
   // так же запускать ф-цию при изменении состояния
   // Второй аргумент массив: если пустой ф-ция сработает один раз,
   // можно передать состояние, ф-ция будет срабатывать при изменеии состояния
   useEffect(() => {
-
+    
     localStorage.setItem('darkMode', darkMode);
 
     if (darkMode === 'light') {
@@ -45,4 +46,4 @@ function BtnDarkMode() {
   )
 }
 
-export default BtnDarkMode
+export default BtnDarkMode;
