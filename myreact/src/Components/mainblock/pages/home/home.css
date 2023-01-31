@@ -23,6 +23,10 @@
     color: #ffffff;
 }
 
+.home-block__text--light-mode{
+    color: #000000;
+}
+
 .home-block__download-cv{
     border: none;
     border-radius: 5px;
@@ -49,6 +53,10 @@
     border: 1px solid #ffffff79;
     width: 300px;
     height: 300px;
+}
+
+.rectangles-block__rec--light-mode{
+    border-color: #0000008f;
 }
 
 .themeRec{
