@@ -1,5 +1,6 @@
 import facebookLogo from './../img/facebook-logo.png';
 import githubLogo from './../img/github-logo2.jpg';
+import githubLogoLight from './../img/github-logo.png';
 import telegramLogo from './../img/telegram-logo.png';
 import adventure from './../img/adventure.jpg';
 import airborne from './../img/airborne.jpg';
@@ -47,6 +48,7 @@ let dataList = {
         
         {
             imgsource: githubLogo,
+            imgsourceLight: githubLogoLight,
             alt: 'gitHub'
         },
         

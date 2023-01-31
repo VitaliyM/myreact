@@ -11,6 +11,10 @@
     font-size: 30px;
 }
 
+.footer-block--light-mode{
+    color: #000000;
+}
+
 .footer-block__images{
     width: 160px;
     display: flex;
