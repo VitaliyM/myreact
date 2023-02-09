@@ -10,7 +10,7 @@ function Mainblock({projectsDataList}) {
     <main className='main-block'>
 
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
         <Route path='/projects' element={<Projects projectsDataList={projectsDataList} />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>
