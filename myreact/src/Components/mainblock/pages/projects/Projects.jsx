@@ -10,10 +10,10 @@ function Projects({projectsDataList}) {
 
         {projectsDataList.map((project) => {
           return (
-            <div className='project'>
+            <a href={project.href} target='_blank' rel='noreferrer' className='project'>
               <img src={project.img} alt={project.title} className='project__image' />
               <div className='project__title'>{project.title}</div>
-            </div>
+            </a>
           )
         })}
 
