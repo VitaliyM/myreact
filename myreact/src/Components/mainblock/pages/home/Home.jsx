@@ -2,6 +2,12 @@ import React from 'react';
 import './home.css';
 
 function Home() {
+
+  let getCv = () => {
+    e.preventDefault();
+    window.location.href = "https://drive.google.com/file/d/1UVEWh1Ct7j5UhFsg-dXeLfikJTynMezf/view?usp=drivesdk"
+  }
+
   return (
     <div className='home-block'>
 
@@ -11,7 +17,7 @@ function Home() {
           <h3>a frontend developer</h3>
           <h5>with passion for learning and creating</h5>
           <button className="home-block__download-cv"
-            onClick={window.location.href = "https://drive.google.com/file/d/1UVEWh1Ct7j5UhFsg-dXeLfikJTynMezf/view?usp=drivesdk"}>
+            onClick={getCv}>
             Download CV
           </button>
 
