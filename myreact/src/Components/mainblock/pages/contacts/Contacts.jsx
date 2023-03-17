@@ -11,11 +11,11 @@ function Contacts() {
       </div>
       <div className='contacts-block__messager'>
         <h3 className='messager__header'>Viber / Telegram</h3>
-        <div className='messager__text'>+380660000000</div>
+        <div className='messager__text'>+380662867564</div>
       </div>
       <div className='contacts-block__email'>
         <h3 className='email__header'>Email</h3>
-        <div className='email__text'>frontend@gmail.com</div>
+        <div className='email__text'>vetalmamchur@gmail.com</div>
       </div>
     </div>
   )
