@@ -3,7 +3,7 @@ import './home.css';
 
 function Home() {
 
-  let getCv = () => {
+  let getCv = (e) => {
     e.preventDefault();
     window.location.href = "https://drive.google.com/file/d/1UVEWh1Ct7j5UhFsg-dXeLfikJTynMezf/view?usp=drivesdk"
   }
