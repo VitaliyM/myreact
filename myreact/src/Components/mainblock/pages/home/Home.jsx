@@ -10,7 +10,9 @@ function Home() {
           <h1>Hi, my name is Vitalii</h1>
           <h3>a frontend developer</h3>
           <h5>with passion for learning and creating</h5>
-          <button className="home-block__download-cv">Download CV</button>
+          <button className="home-block__download-cv" 
+          onClick={window.location.href="https://drive.google.com/file/d/1UVEWh1Ct7j5UhFsg-dXeLfikJTynMezf/view?usp=drivesdk"}
+>Download CV</button>
 
           <div className="rectangles-block">
             <div className="rectangles-block__rec rectangles-block__rect1"></div>
