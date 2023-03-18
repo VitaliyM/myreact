@@ -1,13 +1,22 @@
-.btn-mode{
+.btn-mode {
     margin-left: 20px;
     color: #ffffff;
     text-decoration: none;
 }
 
-.btn-mode--light{
+.btn-mode--light {
     color: #000000;
 }
 
-.btn-mode:hover{
+.btn-mode:hover {
     cursor: pointer;
+}
+
+
+
+@media all and (max-widht:425px) {
+    .btn-mode {
+        margin-left: 15px;
+    }
+
 }

@@ -1,4 +1,4 @@
-.header-block{
+.header-block {
     outline: 2px solid #008eff;
     width: 100%;
     height: 100px;
@@ -10,35 +10,55 @@
     font-size: 20px;
 }
 
-.header-block__logo{
+.header-block__logo {
     text-decoration: none;
     color: #ffffff;
     font-size: 30px;
 }
 
-.header-block__logo--light-mode{
+.header-block__logo--light-mode {
     color: #000000;
 }
 
-.header-block__menu{
+.header-block__menu {
     display: flex;
 }
 
-.menu__menu-list{
+.menu__menu-list {
     margin-left: 20px;
     color: #ffffff;
     text-decoration: none;
 }
 
-.menu__menu-list--light-mode{
+.menu__menu-list--light-mode {
     color: #000000;
 }
 
-.menu__menu-list:hover{
+.menu__menu-list:hover {
     cursor: pointer;
 }
 
-.menu__menu-list_active{
+.menu__menu-list_active {
     margin-left: 20px;
-    color:#008eff;
+    color: #008eff;
+}
+
+
+@media all and (max-widht:425px) {
+
+    .header-block {
+        height: 80px;
+        padding: 0 5px 0 10px;
+        font-size: 15px;
+    }
+
+    .header-block__menu {
+        font-size: 15px;
+    }
+
+    .menu__menu-list, .menu__menu-list_active {
+        margin-left: 15px;
+    }
+    
+
 }
