@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.603a53f3.css",
+    "main.css": "/static/css/main.43c33714.css",
     "main.js": "/static/js/main.d3d641e2.js",
     "static/js/787.c20870d0.chunk.js": "/static/js/787.c20870d0.chunk.js",
     "static/media/porten.png": "/static/media/porten.7751f9c9244c2bd0ec9a.png",
@@ -12,12 +12,12 @@
     "static/media/dermatologie.jpg": "/static/media/dermatologie.068581713dbcfd0aa44d.jpg",
     "static/media/github-logo.png": "/static/media/github-logo.c42aa4a3ced23749c3af.png",
     "index.html": "/index.html",
-    "main.603a53f3.css.map": "/static/css/main.603a53f3.css.map",
+    "main.43c33714.css.map": "/static/css/main.43c33714.css.map",
     "main.d3d641e2.js.map": "/static/js/main.d3d641e2.js.map",
     "787.c20870d0.chunk.js.map": "/static/js/787.c20870d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.603a53f3.css",
+    "static/css/main.43c33714.css",
     "static/js/main.d3d641e2.js"
   ]
 }
