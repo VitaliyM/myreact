@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe004e26.css",
-    "main.js": "/static/js/main.7e2fda3d.js",
+    "main.css": "/static/css/main.603a53f3.css",
+    "main.js": "/static/js/main.aa6a187e.js",
     "static/js/787.c20870d0.chunk.js": "/static/js/787.c20870d0.chunk.js",
     "static/media/porten.png": "/static/media/porten.7751f9c9244c2bd0ec9a.png",
     "static/media/anchor.jpg": "/static/media/anchor.113e6f805e04394ddb61.jpg",
     "static/media/shoppingCart.png": "/static/media/shoppingCart.f6b0740d130e9420b389.png",
     "static/media/airborne.jpg": "/static/media/airborne.cf5cd6832ea793de81e2.jpg",
     "static/media/adventure.jpg": "/static/media/adventure.9a618ec738db736435be.jpg",
+    "static/media/Mamchur_Vitalii_CV.pdf": "/static/media/Mamchur_Vitalii_CV.e5f584b916a94380f379.pdf",
     "static/media/dermatologie.jpg": "/static/media/dermatologie.068581713dbcfd0aa44d.jpg",
     "static/media/github-logo.png": "/static/media/github-logo.c42aa4a3ced23749c3af.png",
     "index.html": "/index.html",
-    "main.fe004e26.css.map": "/static/css/main.fe004e26.css.map",
-    "main.7e2fda3d.js.map": "/static/js/main.7e2fda3d.js.map",
+    "main.603a53f3.css.map": "/static/css/main.603a53f3.css.map",
+    "main.aa6a187e.js.map": "/static/js/main.aa6a187e.js.map",
     "787.c20870d0.chunk.js.map": "/static/js/787.c20870d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe004e26.css",
-    "static/js/main.7e2fda3d.js"
+    "static/css/main.603a53f3.css",
+    "static/js/main.aa6a187e.js"
   ]
 }
