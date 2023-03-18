@@ -13,7 +13,7 @@ body{
 }
 
 
-@media screen and (max-widht:425px) {
+@media all and (max-widht: 425px) {
 
     .header-block {
         height: 80px;
