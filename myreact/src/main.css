@@ -11,31 +11,3 @@ body{
 .body--light-mode{
     background: #ffffff;
 }
-
-
-@media all and (max-widht: 425px) {
-
-    .header-block {
-        height: 80px;
-        padding: 0 5px 0 10px;
-        font-size: 15px;
-    }
-
-    .header-block__menu {
-        font-size: 15px;
-    }
-
-    .menu__menu-list, .menu__menu-list_active {
-        margin-left: 15px;
-    }
-
-    .btn-mode {
-        margin-left: 15px;
-    }
-
-    .home-block__section2 {
-        height: 130px;
-    }
-    
-
-}
