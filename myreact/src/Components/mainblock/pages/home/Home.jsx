@@ -4,9 +4,8 @@ import cv from './../../../../HelperList/Mamchur_Vitalii_CV.pdf'
 
 function Home() {
 
-  let getCv = (e) => {
-    e.preventDefault();
-    window.location.href = cv;
+  let getCv = () => {
+    window.open(cv);
   }
 
   return (
@@ -18,7 +17,7 @@ function Home() {
           <h3>a frontend developer</h3>
           <h5>with passion for learning and creating</h5>
           <button className="home-block__download-cv"
-            onClick={getCv}>
+            onClick={getCv} >
             Download CV
           </button>
 
@@ -35,7 +34,7 @@ function Home() {
 
       <section className="home-block__section2">
         <div className="home-block__skills-header">Frontend</div>
-        <div className="home-block__skills-text">HTML, CSS, JavaScript, BootStrap, NPM, ReactJS, Redux</div>
+        <div className="home-block__skills-text">HTML, CSS, JavaScript, BootStrap, GIT, NPM, ReactJS, Redux</div>
       </section>
 
     </div>
