@@ -1,11 +1,12 @@
 import React from 'react';
 import './home.css';
+import cv from './../../../../HelperList/Mamchur_Vitalii_CV.pdf'
 
 function Home() {
 
   let getCv = (e) => {
     e.preventDefault();
-    window.location.href = "https://drive.google.com/file/d/1UVEWh1Ct7j5UhFsg-dXeLfikJTynMezf/view?usp=drivesdk"
+    window.location.href = cv;
   }
 
   return (
